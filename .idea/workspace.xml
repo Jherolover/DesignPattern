@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aba2d1c-18c6-4343-83d7-85904bef5485" name="Changes" comment="" />
+    <list default="true" id="9aba2d1c-18c6-4343-83d7-85904bef5485" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/behavior/IteratorPattern/IUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/behavior/IteratorPattern/Iterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/behavior/IteratorPattern/IteratorDemoPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/behavior/IteratorPattern/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/behavior/IteratorPattern/UserDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/behavior/IteratorPattern/UserIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/Approver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/ChainOfResponseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/HeadTeacherApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/PresidentApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/VicePresidentApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/InsertCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/QueryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/CommandPattern/UpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/IteratorPattern/IUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/IteratorPattern/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/IteratorPattern/IteratorDemoPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/IteratorPattern/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/IteratorPattern/UserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/IteratorPattern/UserIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RemoteSystemsTempFiles/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behavior/CommandPattern/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/ChainOfResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavior/ChainOfResponsibility/AskforLeaveRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavior/CommandPattern/Test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,13 +86,13 @@
       <recent name="bulid.abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavior.MementoPattern.MementoPatternDemo">
-    <configuration name="MediatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavior.Mediator.MediatorDemo" />
+  <component name="RunManager" selected="Application.ChainOfResponseDemo">
+    <configuration name="ChainOfResponseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavior.ChainOfResponsibility.ChainOfResponseDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavior.Mediator.*" />
+          <option name="PATTERN" value="behavior.ChainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavior.ObserverPattern.ObserverPatternTest" />
+    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavior.CommandPattern.CommandPatternDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavior.ObserverPattern.*" />
+          <option name="PATTERN" value="behavior.CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavior.VisitorPattern.VisitorPatternDemo" />
+    <configuration name="IteratorDemoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavior.IteratorPattern.IteratorDemoPattern" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavior.VisitorPattern.*" />
+          <option name="PATTERN" value="behavior.IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavior.IteratorPattern.UserDemo" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavior.IteratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavior.StatePattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavior.StatePattern.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavior.StatePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponseDemo" />
+        <item itemvalue="Application.CommandPatternDemo" />
+        <item itemvalue="Application.IteratorDemoPattern" />
+        <item itemvalue="Application.UserDemo" />
         <item itemvalue="Application.behavior.MementoPattern.MementoPatternDemo" />
-        <item itemvalue="Application.MediatorDemo" />
-        <item itemvalue="Application.VisitorPatternDemo" />
-        <item itemvalue="Application.ObserverPatternTest" />
-        <item itemvalue="Application.behavior.StatePattern.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +204,9 @@
       <workItem from="1664529818692" duration="11000" />
       <workItem from="1664583460487" duration="24711000" />
       <workItem from="1664977668293" duration="1102000" />
-      <workItem from="1665017651489" duration="1991000" />
+      <workItem from="1665017651489" duration="11776000" />
+      <workItem from="1665188914257" duration="5120000" />
+      <workItem from="1665232890453" duration="8937000" />
     </task>
     <servers />
   </component>
